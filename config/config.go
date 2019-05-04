@@ -41,8 +41,8 @@ func validateConfig(config *Config) error {
 		return fmt.Errorf("no endpoints specified")
 	}
 
-	// Validate Timeout.
-	if _, err := time.ParseDuration(config.timeout); err != nil {
+	// Validate timeout.
+	if _, err := time.ParseDuration(config.Timeout); err != nil {
 		return fmt.Errorf("invalid or missing 'timeout': %s", config.Timeout)
 	}
 
