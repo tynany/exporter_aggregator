@@ -1,0 +1,12 @@
+# The timeout in duration format.
+timeout: 3s
+
+# The list of endpoints to scrape.
+endpoints:
+  - http://127.0.0.1:9101/metrics
+  - http://127.0.0.1:9102/metrics
+  - http://127.0.0.1:9103/metrics
+  - http://127.0.0.1:9104/metrics
+  - http://127.0.0.1:9105/metrics
+  - http://127.0.0.1:9106/metrics
+  - http://127.0.0.1:9107/metrics
