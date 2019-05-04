@@ -5,7 +5,7 @@ Exporter Aggregator will scape metrics from a list of Prometheus exporter endpoi
 This project was driven by having to run multiple instances of HAProxy Exporter when using HAProxy in multiple process mode (`nbproc > 1`). It is very easy to have thousands of HAProxy metrics, and when running a large number of HAProxy processes, the number of metrics per scrape escalates quickly. For example, if each HAProxy process exposes 4,000 metrics, and you have 64 HAProxy processes (`nbproc 64`), you end up collecting 256,000 metrics per scrape. This exporter  reduces that number down to 4,000 without any drawbacks. I'm sure there might be other use cases too.
 
 ## Getting Started
-Download your flavour of prebuilt binaries from the [releases](https://github.com/tynany/exporter_aggregator/releases) tab.
+Download your flavour of prebuilt binary from the [releases](https://github.com/tynany/exporter_aggregator/releases) tab.
 
 To run exporter_aggregator:
 ```
